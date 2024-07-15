@@ -285,5 +285,83 @@ ul a{
     padding-top: 5px;
 }
 
-    
+/* General Mobile Adjustments (up to 600px) */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .nav-logo,
+    .nav-address,
+    .nav-search,
+    .nav-signin,
+    .nav-cart {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .nav-search {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .search-input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .search-icon {
+        width: 100%;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Tablet Adjustments (up to 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    .nav-search {
+        width: 90%;
+    }
+    .shop-section {
+        justify-content: space-around;
+    }
+    .box {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Large Screens (over 1200px) */
+@media (min-width: 1200px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .nav-logo,
+    .nav-address,
+    .nav-search,
+    .nav-signin,
+    .nav-cart {
+        width: auto;
+    }
+    .nav-search {
+        width: 50%;
+    }
+    .shop-section {
+        justify-content: space-evenly;
+    }
+    .box {
+        width: 22%;
+        margin-bottom: 15px;
+    }
+}
+
+
 
