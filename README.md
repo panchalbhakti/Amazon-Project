@@ -1,0 +1,1 @@
+Developed a full-scale dupe of the Amazon webpage using HTML and CSS. Implemented semantic HTML markup and accessibility features. Styled the website elements, including headers, navigation bars, product listings, and footer sections using CSS.
